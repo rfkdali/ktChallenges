@@ -12,6 +12,12 @@ file.each do |row|
   p "MALE" if person.male?
   p "FEMALE" if person.female?
 
+  p person.gender
+
+  # person=
+  person.gender = "Robot"
+  p person.gender
+
   person.infos
 end
 

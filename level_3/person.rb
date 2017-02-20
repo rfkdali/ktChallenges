@@ -1,6 +1,7 @@
 # Here should be the `Person` class
 
 class Person
+  attr_accessor :gender
 
   def initialize gender, first_name, last_name, email
     @gender = gender
