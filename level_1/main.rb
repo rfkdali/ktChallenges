@@ -1,3 +1,6 @@
-source_path = File.join(__dir__, "source.csv")
+require 'csv'
 
-# it's up to you now!
+source_path = File.join(__dir__, "source.csv")
+file = CSV.read(source_path)
+
+puts file
