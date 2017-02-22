@@ -15,7 +15,7 @@ class Person
   end
 
   def female?
-    @gender == ("Mme" || "Mlle")
+    @gender == "Mme" || @gender == "Mlle"
   end
 
   def infos
